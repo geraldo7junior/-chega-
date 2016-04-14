@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>#chega!</title>
+		<!-- start: META -->
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="#chega!" name="description" />
+		<meta content="Geraldo Gomes" name="author" />
+		<!-- end: META -->
+		<!-- start: MAIN CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,200,100,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/iCheck/skins/all.css">
+		<link rel="stylesheet" href="assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css">
+		<link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css">
+		<!-- end: MAIN CSS -->
+		<!-- start: CSS REQUIRED FOR SUBVIEW CONTENTS -->
+		<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.theme.css">
+		<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.transitions.css">
+		<link rel="stylesheet" href="assets/plugins/summernote/dist/summernote.css">
+		<link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css">
+		<link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-select/bootstrap-select.min.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css">
+		<link rel="stylesheet" href="assets/plugins/DataTables/media/css/DT_bootstrap.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
+		<link rel="stylesheet" href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
+		<!-- end: CSS REQUIRED FOR THIS SUBVIEW CONTENTS-->
+		<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<link rel="stylesheet" href="assets/plugins/weather-icons/css/weather-icons.min.css">
+		<link rel="stylesheet" href="assets/plugins/nvd3/nv.d3.min.css">
+		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: CORE CSS -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/styles-responsive.css">
+		<link rel="stylesheet" href="assets/css/plugins.css">
+		<link rel="stylesheet" href="assets/css/themes/theme-style7.css" type="text/css" id="skin_color">
+		<link rel="stylesheet" href="assets/css/print.css" type="text/css" media="print"/>
+		<!-- end: CORE CSS -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+	</head>
+	<body>
+		<!--<div w3-include-html="header.html"></div> -->
+		
+		<!-- =========== header ========================== -->
+		<div class="main-wrapper">
+			<!-- start: TOPBAR -->
+			<header class="topbar navbar navbar-inverse navbar-fixed-top inner">
+				<!-- start: TOPBAR CONTAINER -->
+				<div class="container">
+					<div class="navbar-header">
+						<a class="sb-toggle-left hidden-md hidden-lg" href="#main-navbar">
+							<i class="fa fa-bars"></i>
+						</a>
+						<!-- start: LOGO -->
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/images/logo.png" alt="Logo"/>
+						</a>
+						<!-- end: LOGO -->
+					</div>
+					<div class="topbar-tools">
+						<!-- start: TOP NAVIGATION MENU -->
+						<ul class="nav navbar-right">
+							<!-- start: USER DROPDOWN -->
+							<li class="dropdown current-user">
+								<a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
+									<span class="username hidden-xs">Geraldo</span> <i class="fa fa-caret-down "></i>
+								</a>
+								<ul class="dropdown-menu dropdown-dark">
+									<li>
+										<a href="pages_user_profile.html">
+											Perfil
+										</a>
+									</li>
+									<li>
+										<a href="login_login.html">
+											Sair
+										</a>
+									</li>
+								</ul>
+							</li>
+							<!-- end: USER DROPDOWN -->
+							<li class="right-menu-toggle">
+								<a href="#" class="sb-toggle-right">
+									<i class="fa fa-globe toggle-icon"></i> <i class="fa fa-caret-right"></i> <span class="notifications-count badge badge-default hide"> 3</span>
+								</a>
+							</li>
+						</ul>
+						<!-- end: TOP NAVIGATION MENU -->
+					</div>
+				</div>
+				<!-- end: TOPBAR CONTAINER -->
+			</header>
+			<!-- end: TOPBAR -->
+			<!-- start: PAGESLIDE LEFT -->
+			<a class="closedbar inner hidden-sm hidden-xs" href="#">
+			</a>
+			<nav id="pageslide-left" class="pageslide inner">
+				<div class="navbar-content">
+					<!-- start: SIDEBAR -->
+					<div class="main-navigation left-wrapper transition-left">
+						<div class="navigation-toggler hidden-sm hidden-xs">
+							<a href="#main-navbar" class="sb-toggle-left">
+							</a>
+						</div>
+						<div class="user-profile border-top padding-horizontal-10 block">
+							<div class="inline-block">
+								<img src="assets/images/avatar-1.png" alt="">
+							</div>
+							<div class="inline-block">
+								<h5 class="no-margin"> Bem-vindo </h5>
+								<h4 class="no-margin"> Geraldo </h4>
+							</div>
+						</div>
+						<!-- start: MAIN NAVIGATION MENU -->
+						<ul class="main-navigation-menu">
+							<li class="active open">
+								<a href="index.html"><i class="fa fa-home"></i> <span class="title"> Dashboard </span><span class="label label-default pull-right ">Tempo Real</span> </a>
+							</li>
+							<li>
+								<a href="statistics.html"><i class="fa fa-cubes"></i> <span class="title">Estatísticas</span> </a>
+							</li>
+							<li>
+								<a href="correlations.html"><i class="fa fa-exchange"></i> <span class="title">Correlações</span> </a>
+							</li>
+							<li>
+								<a href="maps.html"><i class="fa fa-map-marker"></i> <span class="title">Mapas</span> </a>
+							</li>
+							<li>
+								<a href="charts.html"><i class="fa fa-bar-chart-o"></i> <span class="title">Gráficos</span> </a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<i class="fa fa-heart"></i> <span class="title"> Sentimentos </span><i class="icon-arrow"></i> <span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="feeling_realtime.html">
+											Tempo Real
+										</a>
+									</li>
+									<li>
+										<a href="feeling_historic.html">
+											Histórico
+										</a>
+									</li>
+									<li>
+										<a href="feeling_comparative.html">
+											Comparativo
+										</a>
+									</li>
+									<li>
+										<a href="feeling_place.html">
+											Local
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="complaints.html"><i class="fa fa-exclamation-circle"></i> <span class="title">Denúncias</span> </a>
+							</li>
+						</ul>
+						<!-- end: MAIN NAVIGATION MENU -->
+					</div>
+					<!-- end: SIDEBAR -->
+				</div>
+				<div class="slide-tools">
+					<div class="col-xs-6 text-right no-padding">
+						<a class="btn btn-sm log-out text-right" href="login_login.html">
+							<i class="fa fa-power-off"></i> Sair
+						</a>
+					</div>
+				</div>
+			</nav>
+			<!-- end: PAGESLIDE LEFT -->
+			<!-- start: PAGESLIDE RIGHT -->
+			<div id="pageslide-right" class="pageslide slide-fixed inner">
+				<div class="right-wrapper">
+					<div class="notifications">
+						<div class="pageslide-title">
+							Você tem três notificações
+						</div>
+						<ul class="pageslide-list">
+							<li>
+								<a href="javascript:void(0)">
+									<span class="label label-primary"><i class="fa fa-user"></i></span> <span class="message"> Muitos repasses</span> <span class="time"> 1 min</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<span class="label label-success"><i class="fa fa-usd"></i></span> <span class="message"> Repasse incomum</span> <span class="time"> 7 min</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<span class="label label-success"><i class="fa fa-usd"></i></span> <span class="message"> Repasse incomum</span> <span class="time"> 8 hrs</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end: PAGESLIDE RIGHT -->
+			
+			<!-- end: ====================== HEADER ============== -->
+			
+			<!-- start: MAIN CONTAINER -->
+			<div class="main-container inner">
+				<!-- start: PAGE -->
+				<div class="main-content">
+					<!-- start: PANEL CONFIGURATION MODAL FORM -->
+					<div class="modal fade" id="panel-config" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;
+									</button>
+									<h4 class="modal-title">formulário de Configuração</h4>
+								</div>
+								<div class="modal-body">
+									Formulário de configuração
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">
+										Fechar
+									</button>
+									<button type="button" class="btn btn-primary">
+										Salvar Mudanças
+									</button>
+								</div>
+							</div>
+							<!-- /.modal-content -->
+						</div>
+						<!-- /.modal-dialog -->
+					</div>
+					<!-- /.modal -->
+					<!-- end: SPANEL CONFIGURATION MODAL FORM -->
+					<div class="container">
+						<!-- start: PAGE HEADER -->
+						<!-- start: TOOLBAR -->
+						<div class="toolbar row">
+							<div class="col-sm-6 hidden-xs">
+								<div class="page-header">
+									<h1>Dashboard <small>dados em tempo real </small></h1>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<a href="#" class="back-subviews">
+									<i class="fa fa-chevron-left"></i> VOLTAR
+								</a>
+								<a href="#" class="close-subviews">
+									<i class="fa fa-times"></i> FECHAR
+								</a>
+								<div class="toolbar-tools pull-right">
+									<!-- start: TOP NAVIGATION MENU -->
+									<ul class="nav navbar-right">
+										<!-- start: TO-DO DROPDOWN -->
+										<li class="dropdown">
+											<a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
+												<span class="messages-count badge badge-default hide">3</span> <i class="fa fa-plus"></i> DENUNCIAR
+											</a>
+											<ul class="dropdown-menu dropdown-light dropdown-messages">
+												<li>
+													<a href="#newNote" class="new-note"><span class="fa-stack"> <i class="fa fa-file-text-o fa-stack-1x fa-lg"></i> <i class="fa fa-plus fa-stack-1x stack-right-bottom text-danger"></i> </span> Nova Denúncia</a>
+												</li>
+												<li>
+													<span class="dropdown-header"> Últimas denúncias</span>
+												</li>
+												<li>
+													<div class="drop-down-wrapper ps-container">
+														<ul>
+															<li class="unread">
+																<a href="javascript:;" class="unread">
+																	<div class="clearfix">
+																		<div class="thread-image">
+																			<img src="./assets/images/avatar-2.jpg" alt="">
+																		</div>
+																		<div class="thread-content">
+																			<span class="author">Caroline Silva</span>
+																			<span class="preview">Pagamentos indevidos realizados para uma ONG que não existe...</span>
+																			<span class="time"> Agora</span>
+																		</div>
+																	</div>
+																</a>
+															</li>
+															<li>
+																<a href="javascript:;" class="unread">
+																	<div class="clearfix">
+																		<div class="thread-image">
+																			<img src="./assets/images/avatar-3.jpg" alt="">
+																		</div>
+																		<div class="thread-content">
+																			<span class="author">Pedro José</span>
+																			<span class="preview">Pagamentos indevidos realizados para uma ONG que não existe...</span>
+																			<span class="time">8 hrs</span>
+																		</div>
+																	</div>
+																</a>
+															</li>
+															<li>
+																<a href="javascript:;">
+																	<div class="clearfix">
+																		<div class="thread-image">
+																			<img src="./assets/images/avatar-5.jpg" alt="">
+																		</div>
+																		<div class="thread-content">
+																			<span class="author">Bruno Ross</span>
+																			<span class="preview">Pagamentos indevidos realizados para uma ONG que não existe...</span>
+																			<span class="time">14 hrs</span>
+																		</div>
+																	</div>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="view-all">
+													<a href="pages_messages.html">
+														Veja todas
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="menu-search">
+											<a href="#">
+												<i class="fa fa-search"></i> BUSCAR
+											</a>
+											<!-- start: SEARCH POPOVER -->
+											<div class="popover bottom search-box transition-all">
+												<div class="arrow"></div>
+												<div class="popover-content">
+													<!-- start: SEARCH FORM -->
+													<form class="" id="searchform" action="#">
+														<div class="input-group">
+															<input type="text" class="form-control" placeholder="Buscar">
+															<span class="input-group-btn">
+																<button class="btn btn-main-color btn-squared" type="button">
+																	<i class="fa fa-search"></i>
+																</button> </span>
+														</div>
+													</form>
+													<!-- end: SEARCH FORM -->
+												</div>
+											</div>
+											<!-- end: SEARCH POPOVER -->
+										</li>
+									</ul>
+									<!-- end: TOP NAVIGATION MENU -->
+								</div>
+							</div>
+						</div>
+						<!-- end: TOOLBAR -->
+						<!-- end: PAGE HEADER -->
+						<!-- start: BREADCRUMB -->
+						<div class="row">
+							<div class="col-md-12">
+								<ol class="breadcrumb">
+									<li>
+										<a href="#">
+											Dashboard
+										</a>
+									</li>
+									<li class="active">
+										Dashboard
+									</li>
+								</ol>
+							</div>
+						</div>
+						<!-- end: BREADCRUMB -->
+						<!-- start: PAGE CONTENT -->
+						<div class="row">
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="panel panel-default panel-white core-box">
+									<div class="panel-body no-padding">
+										<div class="partition-blue padding-20 text-center core-icon">
+											<i class="fa fa-cubes fa-2x icon-big"></i>
+										</div>
+										<div class="padding-20 core-content">
+											<h3 class="title block no-margin">Estatísticas</h3>
+											<span class="subtitle"> Acompanhe dados e comportamentos suspeitos no Brasil. </span>
+										</div>
+									</div>
+									<div class="panel-footer clearfix no-padding">
+										<div class=""></div>
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-green" data-toggle="tooltip" data-placement="top" title="Informações"><i class="fa fa-info"></i></a>
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-red" data-toggle="tooltip" data-placement="top" title="Explore"><i class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="panel panel-default panel-white core-box">
+									<div class="panel-body no-padding">
+										<div class="partition-blue padding-20 text-center core-icon">
+											<i class="fa fa-exchange fa-2x icon-big"></i>
+										</div>
+										<div class="padding-20 core-content">
+											<h3 class="title block no-margin">Correlações</h3>
+											<span class="subtitle"> Descubra relações curiosas e atente para comportamentos. </span>
+										</div>
+									</div>
+									<div class="panel-footer clearfix no-padding">
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-green" data-toggle="tooltip" data-placement="top" title="Informações"><i class="fa fa-info"></i></a>
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-red" data-toggle="tooltip" data-placement="top" title="Explore"><i class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="panel panel-default panel-white core-box">
+									<div class="panel-body no-padding">
+										<div class="partition-blue padding-20 text-center core-icon">
+											<i class="fa fa-map-marker fa-2x icon-big"></i>
+										</div>
+										<div class="padding-20 core-content">
+											<h3 class="title block no-margin">Mapas</h3>
+											<span class="subtitle"> Acompanhe a distribuição de repasses pelo Brasil. </span>
+										</div>
+									</div>
+									<div class="panel-footer clearfix no-padding">
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-green" data-toggle="tooltip" data-placement="top" title="Informações"><i class="fa fa-info"></i></a>
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-red" data-toggle="tooltip" data-placement="top" title="Explore"><i class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-sm-6">
+								<div class="panel panel-default panel-white core-box">
+									<div class="panel-body no-padding">
+										<div class="partition-blue padding-20 text-center core-icon">
+											<i class="fa fa-heart fa-2x icon-big"></i>
+										</div>
+										<div class="padding-20 core-content">
+											<h3 class="title block no-margin">Sentimentos</h3>
+											<span class="subtitle"> Veja o que as redes sociais comentam sobre a política brasileira. </span>
+										</div>
+									</div>
+									<div class="panel-footer clearfix no-padding">
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-green" data-toggle="tooltip" data-placement="top" title="Informações"><i class="fa fa-info"></i></a>
+										<a href="#" class="col-xs-6 padding-10 text-center text-white tooltips partition-red" data-toggle="tooltip" data-placement="top" title="Explore"><i class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-8 col-md-7">
+								<div class="panel panel-white">
+									<div class="panel-heading border-light">
+										<h4 class="panel-title">Correlações</h4>
+										<ul class="panel-heading-tabs border-light">
+											<!--<li>
+												<div id="reportrange" class="pull-right">
+													<span>Essa Semana </span><i class="fa fa-angle-down"></i>
+												</div>
+											</li>-->
+											<li>
+												<div class="rate">
+													<i class="fa fa-caret-up text-green"></i><span class="value">15</span><span class="percentage">%</span>
+												</div>
+											</li>
+											<li class="panel-tools">
+												<div class="dropdown">
+													<a data-toggle="dropdown" class="btn btn-xs dropdown-toggle btn-transparent-grey">
+														<i class="fa fa-cog"></i>
+													</a>
+													<ul class="dropdown-menu dropdown-light pull-right" role="menu">
+														<li>
+															<a class="" href="#"><i class="fa fa-share"></i> <span>Compartilhar</span> </a>
+														</li>
+														<li>
+															<a class="panel-refresh" href="#">
+																<i class="fa fa-refresh"></i> <span>Recarregar</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-config" href="#panel-config" data-toggle="modal">
+																<i class="fa fa-wrench"></i> <span>Configurações</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-expand" href="#">
+																<i class="fa fa-expand"></i> <span>Tela Cheia</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="panel-body no-padding partition-green">
+										<div class="col-md-3 col-lg-2 no-padding">
+											<div class="partition-body padding-15">
+												<ul class="mini-stats">
+													<li class="col-md-12 col-sm-4 col-xs-4 no-padding">
+														<div class="sparkline-bar sparkline-1">
+															<span></span>
+														</div>
+														<div class="values">
+															<strong>18304</strong>
+															Solicitações
+														</div>
+													</li>
+													<li class="col-md-12 col-sm-4 col-xs-4 no-padding">
+														<div class="sparkline-bar sparkline-2">
+															<span></span>
+														</div>
+														<div class="values">
+															<strong>R&#36;8,833</strong>
+															Solicitados
+														</div>
+													</li>
+													<li class="col-md-12 col-sm-4 col-xs-4 no-padding">
+														<div class="sparkline-bar sparkline-3">
+															<span></span>
+														</div>
+														<div class="values">
+															<strong>R&#36;5,833</strong>
+															Doados
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-9 col-lg-10 no-padding partition-white">
+											<div class="partition">
+												<div class="partition-body padding-15">
+													<div class="height-300">
+														<div id="chart1" class='with-3d-shadow with-transitions'>
+															<svg></svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5">
+								<div class="panel panel-azure panel-calendar">
+									<div class="panel-heading border-light">
+										<h4 class="panel-title">Calendário</h4>
+										<div class="panel-tools">
+											<div class="dropdown">
+												<a data-toggle="dropdown" class="btn btn-xs dropdown-toggle btn-transparent-white">
+													<i class="fa fa-cog"></i>
+												</a>
+												<ul class="dropdown-menu dropdown-light pull-right" role="menu">
+													<li>
+															<a class="" href="#"><i class="fa fa-share"></i> <span>Compartilhar</span> </a>
+														</li>
+														<li>
+															<a class="panel-refresh" href="#">
+																<i class="fa fa-refresh"></i> <span>Recarregar</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-config" href="#panel-config" data-toggle="modal">
+																<i class="fa fa-wrench"></i> <span>Configurações</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-expand" href="#">
+																<i class="fa fa-expand"></i> <span>Tela Cheia</span>
+															</a>
+														</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="panel-body">
+										<div class="height-300">
+											<div class="row">
+												<div class="col-xs-6">
+													<div class="actual-date">
+														<span class="actual-day"></span>
+														<span class="actual-month"></span>
+													</div>
+												</div>
+												<div class="col-xs-6">
+													<div class="row">
+														<div class="col-xs-12">
+															<div class="clock-wrapper">
+																<div class="clock">
+																	<div class="circle">
+																		<div class="face">
+																			<div id="hour"></div>
+																			<div id="minute"></div>
+																			<div id="second"></div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-12">
+															<div class="weather text-light">
+																<i class="wi-day-sunny"></i>
+																25°
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12">
+													<div class="row">
+														<div class="appointments border-top border-bottom border-light space15">
+															<a class="btn btn-sm owl-prev text-light">
+																<i class="fa fa-chevron-left"></i>
+															</a>
+															<div class="e-slider owl-carousel owl-theme" data-plugin-options='{"transitionStyle": "goDown", "pagination": false}'>
+																<div class="item">
+																	<div class="inline-block padding-10 border-right border-light">
+																		<span class="bold-text text-small"><i class="fa fa-clock-o"></i> 17:00</span>
+																		<span class="text-light text-extra-small">1 hora</span>
+																	</div>
+																	<div class="inline-block padding-10">
+																		<span class="bold-text text-small-calendar">NOTIFICAÇÃO</span>
+																		<span class="text-light text-small-calendar">Repasse Incomum</span>
+																	</div>
+																</div>
+																<div class="item">
+																	<div class="inline-block padding-10 border-right border-light">
+																		<span class="bold-text text-small"><i class="fa fa-clock-o"></i> 18:30</span>
+																		<span class="text-light text-extra-small">30 min</span>
+																	</div>
+																	<div class="inline-block padding-10">
+																		<span class="bold-text text-small-calendar">DENÚNCIA</span>
+																		<span class="text-light text-small-calendar">Corrupção no Município</span>
+																	</div>
+																</div>
+																<div class="item">
+																	<div class="inline-block padding-10 border-right border-light">
+																		<span class="bold-text text-small"><i class="fa fa-clock-o"></i> 20:00</span>
+																		<span class="text-light text-extra-small">2 horas</span>
+																	</div>
+																	<div class="inline-block padding-10">
+																		<span class="bold-text text-small-calendar">SENTIMENTOS</span>
+																		<span class="text-light text-small-calendar">10% de aprovação</span>
+																	</div>
+																</div>
+															</div>
+															<a class="btn btn-sm owl-next text-light"><i class="fa fa-chevron-right"></i> </a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12">
+													<div class="pull-right">
+														<a href="#newNote" class="btn btn-sm btn-transparent-white new-note"><i class="fa fa-plus"></i> Nova Denúncia </a>
+														<a href="#showCalendar" class="btn btn-sm btn-transparent-white show-calendar"><i class="fa fa-calendar-o"></i> Calendário </a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-7 col-lg-4">
+								<div class="panel panel-dark">
+									<div class="panel-heading">
+										<h4 class="panel-title">Outliers</h4>
+										<div class="panel-tools">
+											<div class="dropdown">
+												<a data-toggle="dropdown" class="btn btn-xs dropdown-toggle btn-transparent-white">
+													<i class="fa fa-cog"></i>
+												</a>
+												<ul class="dropdown-menu dropdown-light pull-right" role="menu">
+													<li>
+															<a class="" href="#"><i class="fa fa-share"></i> <span>Compartilhar</span> </a>
+														</li>
+														<li>
+															<a class="panel-refresh" href="#">
+																<i class="fa fa-refresh"></i> <span>Recarregar</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-config" href="#panel-config" data-toggle="modal">
+																<i class="fa fa-wrench"></i> <span>Configurações</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-expand" href="#">
+																<i class="fa fa-expand"></i> <span>Tela Cheia</span>
+															</a>
+														</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="panel-body no-padding">
+										<div class="partition-green padding-15 text-center">
+											<h4 class="no-margin">Outliers</h4>
+											<span class="text-light">Análise de transações não comuns</span>
+										</div>
+										<div id="accordion" class="panel-group accordion accordion-white no-margin">
+											<div class="panel no-radius">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+													<a href="#collapseOne" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle padding-15">
+														<i class="icon-arrow"></i>
+														Solicitações 
+													</a></h4>
+												</div>
+												<div class="panel-collapse collapse in" id="collapseOne">
+													<div class="panel-body no-padding partition-light-grey">
+														<table class="table">
+															<tbody>
+																<tr>
+																	<td class="center">1</td>
+																	<td>Município X</td>
+																	<td class="center">R$ 4909</td>
+																	<td><i class="fa fa-caret-down text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">2</td>
+																	<td>Município Y</td>
+																	<td class="center">R$ 3857</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">3</td>
+																	<td>Município Z</td>
+																	<td class="center">R$ 1789</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">4</td>
+																	<td>Município ZX</td>
+																	<td class="center">R$ 612</td>
+																	<td><i class="fa fa-caret-down text-green"></i></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="panel no-radius">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+													<a href="#collapseTwo" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle padding-15 collapsed">
+														<i class="icon-arrow"></i>
+														Pagamentos
+													</a></h4>
+												</div>
+												<div class="panel-collapse collapse" id="collapseTwo">
+													<div class="panel-body no-padding partition-light-grey">
+														<table class="table">
+															<tbody>
+																<tr>
+																	<td class="center">1</td>
+																	<td>Município X</td>
+																	<td class="center">R$ 5228</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">2</td>
+																	<td>Município Y</td>
+																	<td class="center">R$ 2853</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">3</td>
+																	<td>Município Z</td>
+																	<td class="center">R$ 1948</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">4</td>
+																	<td>Município ZX</td>
+																	<td class="center">R$ 456</td>
+																	<td><i class="fa fa-caret-down text-green"></i></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="panel no-radius">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+													<a href="#collapseThree" data-parent="#accordion" data-toggle="collapse" class="accordion-toggle padding-15 collapsed">
+														<i class="icon-arrow"></i>
+														Beneficiados
+													</a></h4>
+												</div>
+												<div class="panel-collapse collapse" id="collapseThree">
+													<div class="panel-body no-padding partition-light-grey">
+														<table class="table">
+															<tbody>
+																<tr>
+																	<td class="center">1</td>
+																	<td>José Maria</td>
+																	<td class="center">4256</td>
+																	<td><i class="fa fa-caret-down text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">2</td>
+																	<td>Maria José</td>
+																	<td class="center">3557</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">3</td>
+																	<td>Bil Maria</td>
+																	<td class="center">1435</td>
+																	<td><i class="fa fa-caret-up text-green"></i></td>
+																</tr>
+																<tr>
+																	<td class="center">4</td>
+																	<td>Maria Bil</td>
+																	<td class="center">423</td>
+																	<td><i class="fa fa-caret-down text-green"></i></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="panel panel-blue">
+											<div class="panel-body padding-20 text-center">
+												<div class="space10">
+													<h5 class="text-white semi-bold no-margin p-b-5">Hoje</h5>
+													<h3 class="text-white no-margin"><span class="text-small">R&#36;</span>1,450</h3>
+													5 Beneficiados
+												</div>
+												<div class="sparkline-4 space10">
+													<span ></span>
+												</div>
+												<span class="text-light"><i class="fa fa-clock-o"></i> 1 hora atrás</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="panel panel-green">
+											<div class="panel-body padding-20 text-center">
+												<div class="space10">
+													<h5 class="text-white semi-bold no-margin p-b-5">Ontem</h5>
+													<h3 class="text-white no-margin"><span class="text-small">R&#36;</span>1,250</h3>
+													10 Beneficiados
+												</div>
+												<div class="sparkline-5 space10">
+													<span></span>
+												</div>
+												<span class="text-light"><i class="fa fa-clock-o"></i> 1 hora atrás</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="panel">
+											<div class="panel-body">
+												<div class="easy-pie-chart">
+													<span class="cpu number appear" data-percent="82" data-plugin-options='{"barColor": "#ff0000"}'> <span class="percent"></span> </span>
+													<div class="label-chart">
+														<h4 class="no-margin">Beneficiados</h4>
+													</div>
+												</div>
+												<div class="small-text text-center space15">
+													<span class="block">Média</span><span class="label label-danger vertical-align-bottom">R$850.000</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="panel">
+											<div class="panel-body">
+												<div class="easy-pie-chart">
+													<span class="bounce number appear" data-percent="44" data-plugin-options='{"barColor": "#35aa47"}'> <span class="percent"></span> </span>
+													<div class="label-chart">
+														<h4 class="no-margin">Empresa X</h4>
+													</div>
+												</div>
+												<div class="text-center space15">
+													<span class="block">recebeu</span><span class="label label-danger vertical-align-bottom">44% das doações</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-4 col-md-5">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="panel panel-green">
+									<div class="e-slider owl-carousel owl-theme">
+										<div class="item">
+											<div class="panel-body">
+												<div class="core-box">
+													<div class="text-dark text-bold space15">
+														SOCIAL
+													</div>
+													<div class="space5">
+														<i class="fa fa-twitter fa-4x pull-left"></i>
+														A situação política brasileira é complicada e a corrupção...
+													</div>
+													<span class="text-light text-small block pull-right"> <i class="fa fa-clock-o"></i> 11 min atrás </span>
+												</div>
+											</div>
+											<div class="padding-10">
+												<span class="bold-text">1527</span><span class="text-light"> pessoas compartilharam isso </span>
+												<a href="#" class="view-more pull-right text-dark text-bold">
+													Veja Mais <i class="fa fa-angle-right text-light"></i>
+												</a>
+											</div>
+										</div>
+										<div class="item">
+											<div class="panel-body">
+												<div class="core-box">
+													<div class="text-dark text-bold space15">
+														SOCIAL
+													</div>
+													<div class="space5">
+														<i class="fa fa-facebook fa-4x pull-left"></i>
+														Diversos problemas são percebidos ao se observar os pagamentos realizados por empresas privadas aos partidos políticos brasileiros... 
+													</div>
+													<span class="text-light text-small block pull-right"> <i class="fa fa-clock-o"></i> 27 min atrás </span>
+												</div>
+											</div>
+											<div class="padding-10">
+												<span class="bold-text">1527</span><span class="text-light"> pessoas compartilharam isso </span>
+												<a href="#" class="view-more pull-right text-dark text-bold">
+													Veja Mais <i class="fa fa-angle-right text-light"></i>
+												</a>
+											</div>
+										</div>
+										<div class="item">
+											<div class="panel-body">
+												<div class="core-box">
+													<div class="text-dark text-bold space15">
+														SOCIAL
+													</div>
+													<div class="space5">
+														<i class="fa fa-twitter fa-4x pull-left"></i>
+														Muitas instituições e ONG´s são usadas de faixada para o desvio e receptação de dinheiro sujo no Brasil...
+													</div>
+													<span class="text-light text-small block pull-right"> <i class="fa fa-clock-o"></i> 56 min atrás </span>
+												</div>
+											</div>
+											<div class="padding-10">
+												<span class="bold-text">1527</span><span class="text-light"> pessoas compartilharam isso </span>
+												<a href="#" class="view-more pull-right text-dark text-bold">
+													Veja Mais <i class="fa fa-angle-right text-light"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="panel">
+											<div class="panel-body-2">
+												<div class="easy-pie-chart">
+													<span class="cpu number appear" data-percent="15" data-plugin-options='{"barColor": "#ff0000"}'> <span class="percent"></span> </span>
+													<div class="label-chart">
+														<h4 class="no-margin">Beneficiados</h4>
+													</div>
+												</div>
+												<div class="small-text text-center space15">
+													<span class="block">Recebem</span><span class="label label-danger vertical-align-bottom">60% do total doado</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="panel">
+											<div class="panel-body-2">
+												<div class="easy-pie-chart">
+													<span class="bounce number appear" data-percent="8" data-plugin-options='{"barColor": "#35aa47"}'> <span class="percent"></span> </span>
+													<div class="label-chart">
+														<h4 class="no-margin">Doações</h4>
+													</div>
+												</div>
+												<div class="text-center space15">
+													<span class="block">Vão para</span><span class="label label-danger vertical-align-bottom">1 beneficiado</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-8 col-md-7">
+								<div class="panel panel-white">
+									<div class="panel-heading border-light">
+										<h4 class="panel-title">Maiores Solicitações <span class="text-bold">Comparação</span></h4>
+										<ul class="panel-heading-tabs border-light">
+											<!--<li>
+												<div class="pull-right">
+													<div class="btn-group">
+														<a class="btn btn-green dropdown-toggle" data-toggle="dropdown" href="#">
+															Tools <span class="caret"></span>
+														</a>
+														<ul role="menu" class="dropdown-menu">
+															<li class="dropdown-header" role="presentation">
+																Dropdown header
+															</li>
+															<li>
+																<a href="#">
+																	Action
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Another action
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Something else here
+																</a>
+															</li>
+															<li class="divider"></li>
+															<li class="dropdown-header" role="presentation">
+																Dropdown header
+															</li>
+															<li>
+																<a href="#">
+																	Separated link
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li> -->
+											<li>
+												<div class="rate">
+													<i class="fa fa-caret-up text-green"></i><span class="value">11</span><span class="percentage">%</span>
+												</div>
+											</li>
+											<li class="panel-tools">
+												<div class="dropdown">
+													<a data-toggle="dropdown" class="btn btn-xs dropdown-toggle btn-transparent-grey">
+														<i class="fa fa-cog"></i>
+													</a>
+													<ul class="dropdown-menu dropdown-light pull-right" role="menu">
+														<li>
+															<a class="" href="#"><i class="fa fa-share"></i> <span>Compartilhar</span> </a>
+														</li>
+														<li>
+															<a class="panel-refresh" href="#">
+																<i class="fa fa-refresh"></i> <span>Recarregar</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-config" href="#panel-config" data-toggle="modal">
+																<i class="fa fa-wrench"></i> <span>Configurações</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-expand" href="#">
+																<i class="fa fa-expand"></i> <span>Tela Cheia</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="panel-body partition-green">
+										<div class="col-md-12">
+											<div class="height-350">
+												<div id="chart4" class='with-3d-shadow with-transitions'>
+													<svg></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5">
+								<div class="panel">
+									<div class="panel-heading">
+										<i class="clip-bars"></i>
+										<h4 class="panel-title">Acompanhamento <span class="text-bold">Benefícios</span></h4>
+										<div class="panel-tools">
+											<div class="dropdown">
+												<a data-toggle="dropdown" class="btn btn-xs dropdown-toggle btn-transparent-grey">
+													<i class="fa fa-cog"></i>
+												</a>
+												<ul class="dropdown-menu dropdown-light pull-right" role="menu">
+													<li>
+															<a class="" href="#"><i class="fa fa-share"></i> <span>Compartilhar</span> </a>
+														</li>
+														<li>
+															<a class="panel-refresh" href="#">
+																<i class="fa fa-refresh"></i> <span>Recarregar</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-config" href="#panel-config" data-toggle="modal">
+																<i class="fa fa-wrench"></i> <span>Configurações</span>
+															</a>
+														</li>
+														<li>
+															<a class="panel-expand" href="#">
+																<i class="fa fa-expand"></i> <span>Tela Cheia</span>
+															</a>
+														</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="panel-body">
+										<h3 class="inline">56</h3> solicitações este ano
+										<div class="progress progress-xs transparent-black no-radius">
+											<div aria-valuetransitiongoal="12" class="progress-bar progress-bar-success partition-green animate-progress-bar" ></div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4">
+												<h4>30</h4>
+												<div class="progress progress-xs transparent-black no-margin no-radius">
+													<div aria-valuetransitiongoal="52" class="progress-bar progress-bar-success partition-green animate-progress-bar" ></div>
+												</div>
+												Realizadas
+											</div>
+											<div class="col-sm-4">
+												<h4>20</h4>
+												<div class="progress progress-xs transparent-black no-margin no-radius">
+													<div aria-valuetransitiongoal="40" class="progress-bar progress-bar-success partition-green animate-progress-bar" ></div>
+												</div>
+												Pendentes
+											</div>
+											<div class="col-sm-4">
+												<h4>6</h4>
+												<div class="progress progress-xs transparent-black no-margin no-radius">
+													<div aria-valuetransitiongoal="6" class="progress-bar progress-bar-success partition-green animate-progress-bar" ></div>
+												</div>
+												Negadas
+											</div>
+										</div>
+										<div class="row space10">
+											<div class="col-sm-4 text-center">
+												<div class="rate">
+													<i class="fa fa-caret-up text-green"></i><span class="value">26</span><span class="percentage">%</span>
+												</div>
+												Município X
+											</div>
+											<div class="col-sm-4 text-center">
+												<div class="rate">
+													<i class="fa fa-caret-up text-green"></i><span class="value">62</span><span class="percentage">%</span>
+												</div>
+												Município Y
+											</div>
+											<div class="col-sm-4 text-center">
+												<div class="rate">
+													<i class="fa fa-caret-down text-red"></i><span class="value">12</span><span class="percentage">%</span>
+												</div>
+												Município Z
+											</div>
+										</div>
+										<div class="height-155">
+											<div id='chart2' class='chart half with-transitions'>
+												<svg></svg>
+												<!--
+												<button id='start-stop-button'>
+												Start/Stop Stream
+												</button>
+												!-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end: PAGE CONTENT-->
+					</div>
+					<div class="subviews">
+						<div class="subviews-container"></div>
+					</div>
+				</div>
+				<!-- end: PAGE -->
+			</div>
+			<!-- end: MAIN CONTAINER -->
+
+			<!--<div w3-include-html="footer.html"></div>-->
+			
+			
+			
+			<!-- start: =================== FOOTER ============== -->
+			<!-- start: FOOTER -->
+			<footer class="inner">
+				<div class="footer-inner">
+					<div class="pull-left">
+						2016 &copy; #chega!
+					</div>
+					<div class="pull-right">
+						<span class="go-top"><i class="fa fa-chevron-up"></i></span>
+					</div>
+				</div>
+			</footer>
+			<!-- end: FOOTER -->
+			<!-- start: SUBVIEW SAMPLE CONTENTS -->
+			<!-- *** NEW NOTE *** -->
+			<div id="newNote">
+				<div class="noteWrap col-md-8 col-md-offset-2">
+					<h3>Nova Denúncia</h3>
+					<form class="form-note">
+						<div class="form-group">
+							<input class="note-title form-control" name="noteTitle" type="text" placeholder="Título...">
+						</div>
+						<div class="form-group">
+							<textarea id="noteEditor" name="noteEditor" class="hide"></textarea>
+							<textarea class="summernote" placeholder="Escreva a denúncia aqui..."></textarea>
+						</div>
+						<div class="pull-right">
+							<div class="btn-group">
+								<a href="#" class="btn btn-info close-subview-button">
+									Fechar
+								</a>
+							</div>
+							<div class="btn-group">
+								<button class="btn btn-info save-note" type="submit">
+									Salvar
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- *** SHOW CALENDAR *** -->
+			<div id="showCalendar" class="col-md-10 col-md-offset-1">
+				<div class="barTopSubview">
+					<a href="#newNote" class="button-sv new-note"><i class="fa fa-plus"></i> Nova Denúncia</a>
+				</div>
+				<div id="calendar"></div>
+			</div>
+			<!-- end: SUBVIEW SAMPLE CONTENTS -->
+		</div>
+		<!-- end: =================== FOOTER ============== -->
+			
+
+			
+<!-- start: MAIN JAVASCRIPTS -->
+		<!--[if lt IE 9]>
+		<script src="assets/plugins/respond.min.js"></script>
+		<script src="assets/plugins/excanvas.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jQuery/jquery-1.11.1.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<!--<script src="w3-include-HTML.js"></script>-->
+		<script src="assets/plugins/jQuery/jquery-2.1.1.min.js"></script>
+		<!--<![endif]-->
+		<script src="assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/blockUI/jquery.blockUI.js"></script>
+		<script src="assets/plugins/iCheck/jquery.icheck.min.js"></script>
+		<script src="assets/plugins/moment/min/moment.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js"></script>
+		<script src="assets/plugins/bootbox/bootbox.min.js"></script>
+		<script src="assets/plugins/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="assets/plugins/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
+		<script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+		<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+		<script src="assets/plugins/velocity/jquery.velocity.min.js"></script>
+		<script src="assets/plugins/TouchSwipe/jquery.touchSwipe.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
+		<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+		<script src="assets/plugins/jquery-mockjax/jquery.mockjax.js"></script>
+		<script src="assets/plugins/toastr/toastr.js"></script>
+		<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
+		<script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+		<script src="assets/plugins/fullcalendar/fullcalendar/fullcalendar.min.js"></script>
+		<script src="assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
+		<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+		<script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+		<script src="assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
+		<script src="assets/plugins/DataTables/media/js/DT_bootstrap.js"></script>
+		<script src="assets/plugins/truncate/jquery.truncate.js"></script>
+		<script src="assets/plugins/summernote/dist/summernote.min.js"></script>
+		<script src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+		<script src="assets/js/subview.js"></script>
+		<script src="assets/js/subview-examples.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR SUBVIEW CONTENTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="assets/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+		<script src="assets/plugins/nvd3/lib/d3.v3.js"></script>
+		<script src="assets/plugins/nvd3/nv.d3.min.js"></script>
+		<script src="assets/plugins/nvd3/src/models/historicalBar.js"></script>
+		<script src="assets/plugins/nvd3/src/models/historicalBarChart.js"></script>
+		<script src="assets/plugins/nvd3/src/models/stackedArea.js"></script>
+		<script src="assets/plugins/nvd3/src/models/stackedAreaChart.js"></script>
+		<script src="assets/plugins/jquery.sparkline/jquery.sparkline.js"></script>
+		<script src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<script src="assets/js/index.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: CORE JAVASCRIPTS  -->
+		<script src="assets/js/main.js"></script>
+		<!-- end: CORE JAVASCRIPTS  -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				SVExamples.init();
+				Index.init();
+			});
+		</script>
+		
+	</body>
+	<!-- end: BODY -->
+</html>
