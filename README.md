@@ -1,4 +1,4 @@
-#chega!
+chega!
 =======
 Sistema para análise e monitoramento de dados governamentais.
 
@@ -13,6 +13,6 @@ Protótipo
 ---------
 Acesse a versão web do protótipo do projeto [#chega!] (http://chega.esy.es/) ou o protótipo para dispositivos [Android] (https://github.com/geraldo7junior/-chega-/tree/master/prototipo).
 
-License
+Licença
 -------
 Licença livre GNU GPL v2.0  
